@@ -1,6 +1,26 @@
+# DeepSIBA Implementation in Tensorflow 2.3 (Under Construction)
+
+# DeepSIBA: Chemical Structure-based Inference of Biological Alterations
+### Christos Fotis<sup>1(+)</sup>, Nikolaos Meimetis<sup>1+</sup>, Antonios Sardis<sup>1</sup>, Leonidas G.Alexopoulos<sup>1,2(*)</sup>
+ #### 1. BioSys Lab, National Technical University of Athens, Athens, Greece.
+#### 2. ProtATonce Ltd, Athens, Greece.
+
+(+)Equal contributions
+
+(*)Correspondence to: leo@mail.ntua.gr
+
+Github repository of the study:
+> DeepSIBA: Chemical Structure-based Inference of Biological Alterations <br>
+> C.Fotis<sup>1(+)</sup>, N.Meimetis<sup>1+</sup>, A.Sardis<sup>1</sup>, LG. Alexopoulos<sup>1,2(*)</sup>
+
 # DeepSIBA Approach
 ![figure1_fl_02](https://user-images.githubusercontent.com/48244638/80740035-212c7f00-8b20-11ea-9d97-300758595403.png)
 
+## Clone
+```bash
+# clone the source code on your directory
+$ git clone https://github.com/BioSysLab/deepSIBA.git
+```
 # Learning directory overview
 
 This directory contains the required data and source code to implement the machine learning part of deepSIBA. 
@@ -25,21 +45,3 @@ The main functions that implement deepSIBA are:
 4. deepSIBA_screening.py
 
 The input required for each function is described thoroughly in the deepSIBA_examples notebook.
-
-# Python dependencies
-
-- Tensorflow 1.12-1.15
-- Keras
-- theano
-- Numpy
-- Sklearn
-- Rdkit
-- Pandas
-- multiprocessing
-- random
-- tempfile
-- math
-- pathlib
-- pickle
-- functools
-- copy
