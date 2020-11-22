@@ -1,4 +1,4 @@
-# DeepSIBA Implementation in Tensorflow 2.3 (Under Construction)
+# DeepSIBA Implementation in Tensorflow 2.3 (Still Under Construction!!!)
 
 # DeepSIBA: Chemical Structure-based Inference of Biological Alterations
 ### Christos Fotis<sup>1(+)</sup>, Nikolaos Meimetis<sup>1+</sup>, Antonios Sardis<sup>1</sup>, Leonidas G.Alexopoulos<sup>1,2(*)</sup>
@@ -19,7 +19,7 @@ Github repository of the study:
 ## Clone
 ```bash
 # clone the source code on your directory
-$ git clone https://github.com/BioSysLab/deepSIBA.git
+$ git clone https://github.com/NickMeim/deepSIBA_tf2.git
 ```
 # Learning directory overview
 
