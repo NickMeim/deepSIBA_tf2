@@ -1,6 +1,6 @@
 # DeepSIBA Implementation in Tensorflow 2.3 (Still Under Construction!!!)
 
-# DeepSIBA: Chemical Structure-based Inference of Biological Alterations
+# DeepSIBA: chemical structure-based inference of biological alterations using deep learning
 ### Christos Fotis<sup>1(+)</sup>, Nikolaos Meimetis<sup>1+</sup>, Antonios Sardis<sup>1</sup>, Leonidas G.Alexopoulos<sup>1,2(*)</sup>
  #### 1. BioSys Lab, National Technical University of Athens, Athens, Greece.
 #### 2. ProtATonce Ltd, Athens, Greece.
@@ -10,7 +10,7 @@
 (*)Correspondence to: leo@mail.ntua.gr
 
 Github repository of the study:
-> DeepSIBA: Chemical Structure-based Inference of Biological Alterations <br>
+> DeepSIBA: chemical structure-based inference of biological alterations using deep learning <br>
 > C.Fotis<sup>1(+)</sup>, N.Meimetis<sup>1+</sup>, A.Sardis<sup>1</sup>, LG. Alexopoulos<sup>1,2(*)</sup>
 
 # DeepSIBA Approach
