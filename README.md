@@ -1,4 +1,4 @@
-# DeepSIBA Implementation in Tensorflow 2.3 (Still Under Construction!!!)
+# DeepSIBA Implementation in Tensorflow 2.3
 
 # DeepSIBA: chemical structure-based inference of biological alterations using deep learning
 ### Christos Fotis<sup>1(+)</sup>, Nikolaos Meimetis<sup>1+</sup>, Antonios Sardis<sup>1</sup>, Leonidas G.Alexopoulos<sup>1,2(*)</sup>
