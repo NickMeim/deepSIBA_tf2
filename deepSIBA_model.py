@@ -208,7 +208,7 @@ def deepsiba_model(params):
     siamese_net = keras.Model(inputs = [atoms0_1, bonds_1, edges_1, atoms0_2, bonds_2, edges_2], outputs = out)
 
     thresh = params["dist_thresh"] #threshold to consider similars
-    adam = keras.optimizers.Adam(lr = params["lr"], beta_1=0.9, beta_2=0.999, epsilon=1e-8, decay=0.0, amsgrad=False)
+    adam = tf.keras.optimizers.Adam(learning_rate = params["lr"], beta_1=0.9, beta_2=0.999, epsilon=1e-8, decay=0.0, amsgrad=False)
     siamese_net.compile(optimizer = adam,loss= custom_loss,metrics=[custom_mse, get_cindex, r_square, pearson_r, mse_sliced(thresh)])
 
 

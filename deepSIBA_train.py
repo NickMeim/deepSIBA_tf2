@@ -105,7 +105,7 @@ def siba_trainer(train_params, model_params):
             if history.history["r_square"][len(history.history["r_square"])-1] < 0.7:
                 history = deepsiba.fit(trainGen,
                                        steps_per_epoch= ceil(NUM_TRAIN/bs),
-                                       epochs = 10,
+                                       epochs = train_params["RemedialEpochs"],
                                        verbose = 1,
                                        shuffle = True,
                                        callbacks= [term, rlr])
